@@ -21,41 +21,27 @@ export default {
   components: {
     Title,
     Abstract,
-    // Markdown,
-    // BibTeX,
-    // Carousel,
+    Markdown,
+    BibTeX,
+    Carousel,
     Video,
-    // ImageSlider,
-    // ImageSliderInner,
-    // ImageSelector,
-    // Echart,
-    // Collapse,
-    // Table,
-    // SeletionForComparison,
-    // Comment,
-    // Latex,
-    // Model3D,
-    // GaussianSplats3D
+    ImageSlider,
+    ImageSliderInner,
+    ImageSelector,
+    Echart,
+    Collapse,
+    Table,
+    SeletionForComparison,
+    Comment,
+    Latex,
+    Model3D,
+    GaussianSplats3D
   }
 }
 </script>
 
 <template>
   <Title/>
-  <Carousel/>
-  <Video/>
   <Abstract/>
-  <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
-  <BibTeX/>
-  <Comment/>
+  <Video/>
 </template>
