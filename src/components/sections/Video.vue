@@ -22,17 +22,21 @@
             </el-container>
           </el-col>
           <el-col :span="12">
-            <!-- bilibili -->
+            <!-- local -->
             <el-container class="video-container">
-              <iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1zw68YsEP9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+              <video controls muted preload playsinline>
+                <source src="/video/demo.mp4" type="video/mp4">
+              </video>
             </el-container>
           </el-col>
         </el-row>
         <el-row>
           <el-col :span="12">
-            <!-- youtube -->
+           <!-- local -->
             <el-container class="video-container">
-              <iframe src="https://www.youtube.com/embed/wjZofJX0v4M?si=BFvRyc3n3fFV_f1G" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <video controls muted preload playsinline>
+                <source src="/video/demo.mp4" type="video/mp4">
+              </video>
             </el-container>
           </el-col>
         </el-row>
