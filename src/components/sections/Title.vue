@@ -7,7 +7,7 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 const logo = './logo.png'
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'MeloDance: Dance Generation Guided by Music Structure and Emotion'
 
 // 标题颜色
 const title_color = '#000000'
