@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = './logo1.png'
 
 // 标题
 const title = 'MeloDance: Dance Generation Guided by Music Structure and Emotion'
