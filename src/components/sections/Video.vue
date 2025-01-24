@@ -30,6 +30,7 @@
             </el-container>
           </el-col>
         </el-row>
+        </el-row>
           <el-col :span="12">
             <!-- local -->
             <el-container class="video-container">
