@@ -25,17 +25,24 @@
             <!-- local -->
             <el-container class="video-container">
               <video controls muted preload playsinline>
-                <source src="/video/demo.mp4" type="video/mp4">
+                <source src="/video/036.mp4" type="video/mp4">
               </video>
             </el-container>
           </el-col>
         </el-row>
-        <el-row>
-          <el-col :span="12">
-           <!-- local -->
+        <el-col :span="12">
+            <!-- local -->
             <el-container class="video-container">
               <video controls muted preload playsinline>
-                <source src="/video/demo.mp4" type="video/mp4">
+                <source src="/video/120.mp4" type="video/mp4">
+              </video>
+            </el-container>
+          </el-col>
+          <el-col :span="12">
+            <!-- local -->
+            <el-container class="video-container">
+              <video controls muted preload playsinline>
+                <source src="/video/143.mp4" type="video/mp4">
               </video>
             </el-container>
           </el-col>
