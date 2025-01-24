@@ -37,9 +37,18 @@
               </video>
             </el-container>
           </el-col>
+          <el-col :span="12">
+            <!-- local -->
+            <el-container class="video-container">
+              <video controls muted preload playsinline>
+                <source src="/video/130.mp4" type="video/mp4">
+              </video>
+            </el-container>
+          </el-col>
         </el-row>
       </el-col>
     </el-row>
+    
     <el-row justify="center">
       <h1 class="section-title">Explainer Video in the Wild Music</h1>
     </el-row>
